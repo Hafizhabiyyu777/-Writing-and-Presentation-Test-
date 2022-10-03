@@ -84,27 +84,27 @@
     - Document.getElementsByid(); (mencari sesuai dengan id name)
     - Document.getElementsByClassName(); (mencari elemtn class name)
     - Document.getElementsByName(); (mencari element dari name atribut)
-    -  etc
+    - etc
 
 #### Dom Traversing Elements
 
-    **Traversing downwards**
+    > Traversing downwards 
 
-    - Elements.querySelector
-    - Elements.querySelectorALL
-    - Children
+        - Elements.querySelector
+        - Elements.querySelectorALL
+        - Children
 
-    **Traversing upwards**
-    - parentElements
-        const fli = document.querySelector(‘li’)
-        cons list = fli.parentElement
-    - closest
-        cons list = element.closest(selector)
+    > Traversing upwards
+        - parentElements
+            const fli = document.querySelector(‘li’)
+            cons list = fli.parentElement
+        - closest
+            cons list = element.closest(selector)
 
-    **Traversing sideways**
-    - nextElementSibling
-        const ne = Node.nextElementSibling
-    - previousElementSibling
+    > Traversing sideways
+        - nextElementSibling
+            const ne = Node.nextElementSibling
+        - previousElementSibling
 
 ## Day 4 (29/09/2022)
 
