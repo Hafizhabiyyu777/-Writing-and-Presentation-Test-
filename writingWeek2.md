@@ -2,7 +2,7 @@
 
 ## Day 1 (26/09/2022)
 
-> **Scope**
+#### Scope
 
     - Scope adalah konsep dalam flow data variable
     - Berfungsi untuk menentukan suatu variabel bisa diakses pada scope tertentu
@@ -11,7 +11,7 @@
     - Global scope berarti variabel dapat diakses dimanapun dalam suatu file
     - Local scope berarti variabel hanya bisa diakses didalam block saja,tidak bisa diluar block
 
-> **function**
+#### function
 
     - Function adalah sebuah block koda dalam sebuah grup untuk Menyelesaikan satu task
     - Fungsi dari function agar dapat digunakan berulang-ulang kali tanpa harus mengcode ulang contoh function hitungpersegi()
@@ -33,7 +33,7 @@
 
 ## Day 2 (27/09/2022)
 
-> **Data Type Bulit-in Protoype and method**
+#### Data Type Bulit-in Protoype and method
 
     - JS merupakan Bahasa yang dinamis sehingga varibel dalam js tidak terkait langsung pada type tertentu,contohnya jika menulis angka menjadi number tetapi jika menulis kata maka menjadi string
     - Data type dibagi dua yaitu Primitive dan Non-premitive
@@ -71,14 +71,14 @@
 
 ## Day 3 (28/09/2022)
 
-> **Dom-Introduction**
+#### Dom-Introduction
 
     - Dom(document object model) adalah sebuah progamming intergace untuk web dokumen
     - Dom bukan bagian dari JS melainkan (Web API)
     - Mengubah konten Element bisa menggunakan Element.textcontent/Element.innerHTML
     - etc
 
-> **Selecting Elements**
+#### Selecting Elements
 
     - document.getElementsByTagName(); (mencari element sesuai tagname)
     - Document.getElementsByid(); (mencari sesuai dengan id name)
@@ -86,7 +86,7 @@
     - Document.getElementsByName(); (mencari element dari name atribut)
     -  etc
 
-> **Dom Traversing Elements**
+#### Dom Traversing Elements
 
     **Traversing downwards**
 
@@ -108,7 +108,7 @@
 
 ## Day 4 (29/09/2022)
 
-> **Dom Manipulating Elements**
+#### Dom Manipulating Elements
 
     Sebelum itu kita harus membuat div di html dengan class content,setelah itu menulis code dibawah ini di file js,adpun penjelasan setiap codenya sudh di comment
 
@@ -118,18 +118,18 @@
     let content = document.querySelector(' .content') //mencari class content
     content.appendChild(bljr)  //menampilkan ke browser // menambahkan p ke div
 
-> **Dom Manipulating Styles**
+#### Dom Manipulating Styles
 
     - Nama.style.color =”black” (merubah warna dari nama)
-    -	Nama.style.border (merubah border dari nama)
-    -	Nama.style.padding (merubah padding dari nama)
-    -	Nama.style.backgroundColor (merubah background calor
+    - Nama.style.border (merubah border dari nama)
+    - Nama.style.padding (merubah padding dari nama)
+    - Nama.style.backgroundColor (merubah background calor
 
     Intinya jika ingin manipulating style kita bisa melakukan selecting element terlebih dahulu setelah itu nama.style.tindakan apa yang mau di manipulating
 
 ## Day 5 (30/09/2022)
 
-> **Dom Events**
+#### Dom Events
 
     - Element.addEventListener(“event”)
         Bisa dihilangkan,bisa memiliki argumen tambahan dan beberapa event listener yang sama untuk 1 element
@@ -140,7 +140,7 @@
     - EventListener- From Submission
         Kita bisa menambahkan Event listener untuk menerima inputan adri form pembahasan lebih mendetail dibagian dom form
 
-> **Dom Forms**
+#### Dom Forms
 
     Berfungsi untuk memanipulasi Forms,adapun contoh code dan penjelasannya dibawah ini
 
