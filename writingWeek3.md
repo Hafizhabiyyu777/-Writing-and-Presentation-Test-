@@ -49,7 +49,7 @@ Object adalah sebuah tipe data pada variable yang menyimpan property dan fungsi 
 >
 > Delete objt.property
 
-> Selain itu object juga dapat memiliki method contohnay sebagai berikut
+> Selain itu object juga dapat memiliki method contohnya sebagai berikut
 >
 > let greeting = {
 > welcome : function(nama="noname") {
@@ -62,9 +62,9 @@ Object adalah sebuah tipe data pada variable yang menyimpan property dan fungsi 
 >       }
 >
 > Dan cara memanggilnya adalah
-> onsole.log(greeting.welcome("Andi"));
+> Console.log(greeting.welcome("Andi"));
 
-Selainitu object juga dapat melakukan Nested object atau biasa disebut object dalam object contoh codingannya sebagai berikut ini
+Selain itu object juga dapat melakukan Nested object atau biasa disebut object dalam object contoh codingannya sebagai berikut ini
 let tanaman = {
 jenis : "bunga",
 nama : "bunga tulip",
@@ -83,7 +83,7 @@ asal : "indo Pasific"
     //cara memanggil nested object
     console.log(tanaman.serupa.saudara1.nama);
 
-Mungkin kita akan kesusahan jika ingin memanggil nested object,maka dari itu kita dapat menggunakan For in,adapun contoh codenya sebaga berikut ini
+Mungkin kita akan kesusahan jika ingin memanggil nested object,maka dari itu kita dapat menggunakan For in,adapun contoh codenya sebagai berikut ini
 for(let key in objct name) {
 console.log(`${key}:${objctName [key]}`)
 }
@@ -164,7 +164,6 @@ JS Module adalah cara untuk memisahkan kode ke file yang berbeda adapun Keuntung
 > Untuk codingan import sebagai berikut
 > import E, { motor as motorJepang, >smartphone } from "./japan.js";
 > //Import E merupakan sebuah export default
-> //Sebagai catetan pada bagian html harus ditambahkan type=”module” jika memanggil file js
 
 ## Day 4(06/10/2022)
 
@@ -172,14 +171,11 @@ JS Module adalah cara untuk memisahkan kode ke file yang berbeda adapun Keuntung
 
 JS sendiri merupakan bahasa yang :
 
-> single thread
-> Single-thread merupakan sistem yang hanya mempunyai 1 jalur(1 kasir)
+- Single-thread merupakan sistem yang hanya mempunyai 1 jalur(1 kasir)
 
-> non-blocking
-> Non-blocking artinya proses dapat diselat oleh proses lain
+- Non-blocking artinya proses dapat diselat oleh proses lain
 
-> Asynchronous
-> Asynchronous adalah proses yang dilakukan secara tidak berurutan,misal A baru berjalan 70% setelah itu diselat B dan >Kembali lagi ke A 30%
+- Asynchronous adalah proses yang dilakukan secara tidak berurutan,misal A baru berjalan 70% setelah itu diselat B dan >Kembali lagi ke A 30%
 
 Eksekusi antrian pada JS bersifat first-in dan last-out,adapun JS Asynchronous memiliki beberapa jenis yaitu callback,promises dan async await
 
