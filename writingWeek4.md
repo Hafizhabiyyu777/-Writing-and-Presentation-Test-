@@ -113,9 +113,9 @@ Sebagai informasi perubahan tampilan saat berganti device disebut dengan breakpo
 
 Grid adalah tata letak yang dapat digunakan dalam meletakkan halaman adapun grid bekerja pada 2 dimensi yaitu baris dan kolom sedangan flexbox bekerja pada satu dimensi saja.kita dapat mengaktifkan grid dengan membuat elemen html seperti berikut ini :
 
-1.  <div class="grid-container">
-    <!-- content -->
-    </div>
+1.  > <div class="grid-container">
+        <!-- content -->
+        </div>
 2.  .grid-container {
     display: grid;
     }
@@ -148,7 +148,8 @@ Di dalam boostrab terdapat grid yaitu dengan membagi laman menjadi 12 gird yaitu
 
 adapun contoh penerapan grid sebagai berikut :
 
-<!-- <div class="row">
-    <div class="col-sm-6"> <p> Coba 1 </p> </div>
-    <div class="col-sm-6"> <p> Coba 2 </p> </div> </div>
-</div> -->
+>   <div class="row">
+
+        <div class="col-sm-6"> <p> Coba 1 </p> </div>
+        <div class="col-sm-6"> <p> Coba 2 </p> </div> </div>
+    </div>
