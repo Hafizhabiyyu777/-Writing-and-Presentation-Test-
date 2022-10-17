@@ -148,7 +148,7 @@ Di dalam boostrab terdapat grid yaitu dengan membagi laman menjadi 12 gird yaitu
 
 adapun contoh penerapan grid sebagai berikut :
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm-6"> <p> Coba 1 </p> </div>
     <div class="col-sm-6"> <p> Coba 2 </p> </div> </div>
-</div>
+</div> -->
