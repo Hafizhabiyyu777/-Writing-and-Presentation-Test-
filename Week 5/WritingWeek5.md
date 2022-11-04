@@ -240,6 +240,9 @@ Dari gambar diatas kita bisa belajar banyak hal yaitu
 **Membuat database dengan cara memecah tabel yang sudah ada atau data yang sudah ada**
 Jika kita berangkat dari data yang sudah menyatu maka kita dapat melakukan normalisasi yaitu Teknik untuk mengorganisir data ke dalam bentuk table supaya
 
+#dibawah ini coba link
+![Tux, the Linux mascot](img/2nf.png)
+
 - data tidak redundancy
 - Mudah dicari
 - Agar Tidak terjadi anomaly
