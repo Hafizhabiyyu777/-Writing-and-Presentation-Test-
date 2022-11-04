@@ -156,7 +156,7 @@ Contoh Query :
 
 maka outputnya sebagai berikut :
 
-![Count](img/count.png)
+![Count](IMG/count.png)
 
 Dari query diatas maka akan dicari banyaknya data harga yang lebih besar dari 10.000 pada tabel product,ternyata ditemukan ada 3 data yang lebih besar dari 10.000
 
@@ -168,7 +168,7 @@ Contoh Query : `select name,price,avg(price) as "Average" from product having av
 
 Output Query :
 
-![having](img/having.png)
+![having](IMG/having.png)
 
 ### Connect relational database
 
@@ -282,17 +282,17 @@ Setelah berhasil maka lakukan inisiasi pada project dengan `npx sequelize-cli in
 
 setelah itu setting database pada config json,setelah itu setting pada development sesuai database kita adapun contohnya seperti dibawah ini
 
-![setting database](img/config.png)
+![setting database](IMG/config.png)
 
 Dimana password dan username kita sesuaikan dengan milik kita,setelah itu database adalah database yang ingin kita tuju di mysql,selanjutnya kita dapat membuat tabel serta atribut sebagai berikut ini :
 `npx sequelize-cli model:generate --name User --attributes email:string,firstName:string,umur:integer,birthDate:date`
 
 maka akan muncul di migration sebagai berikut :
 
-![migration](img/migration.png)
+![migration](IMG/migration.png)
 
 setelah itu kita lakukan `npx sequelize-cli db:migrate` untuk menyambungkkannya ke database mysql maka setelah kia cek di database mysql akan muncul seperti berikut ini :
 
-![mysqlconnect](img/mysqlconnect.png)
+![mysqlconnect](IMG/mysqlconnect.png)
 
 Dimana tabel user adalah tabel yang kita buat barusan serta sequelizemeta akan terbuat otomatis setelah kita lakukan integrasi dan tidak perlu dihapus,perlu diketahui muskipun kita tidak membuat atribut id,maka id sudah otomatis dibuat beserta auto_incrementnya
